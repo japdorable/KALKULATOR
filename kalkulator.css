@@ -1,0 +1,93 @@
+body{
+    background: url(🎀.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.kalkulator{
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #f1e3cb;
+    border-radius: 10px;
+}
+
+#layar{
+    width: 100%;
+    height: 55px;
+    padding: 10px 5px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #8f6742;
+    text-align: right;
+    border: 3px solid #e7cfbb;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.container-tombol{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tombol{
+    display: flex;
+    width: 25%;
+    font-size: 25px;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e7cfbb;
+    box-sizing: border-box;
+    border-top: none;
+    border-left: none;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.tombol:nth-child(4n+1){
+    border-left: 1px solid #e7cfbb;
+}
+
+.nol{
+    flex-grow: 1;
+}
+
+.hitung{
+    background-color: #B0585D;
+    color: white;
+}
+
+.ok{
+    background: #ebd9bc;
+    color: #8f6742;
+}
+
+.ce{
+    background: #B0585D;
+    color: white;
+}
+
+.numb{
+    color: #8f6742;
+}
+.numb:hover{
+    background: #e4cfbe;
+    cursor: pointer;
+}
+
+.hitung:hover{
+    background: #a05054;
+}
+
+.ce:hover{
+    background: #a05054;
+}
+
+.ok:hover{
+    background: #dfc2a8;
+}
