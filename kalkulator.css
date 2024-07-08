@@ -3,6 +3,16 @@ body{
     background-size: cover;
 }
 
+.japa{
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+
+}
+
 .kalkulator{
     width: 300px;
     margin: 100px auto;
